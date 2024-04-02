@@ -1,6 +1,25 @@
 :root {
+    --blue-linear-color: #2E4E5A;
+    --background: #142231;
+  }
+  
+  header {
+    background-color: var(--blue-linear-color);
+  }
+  
+  .navbar {
+    background-color: var(--blue-linear-color);
+    justify-content: center;
+    
+  }
 
-    --blue-linear-color : #2E4E5A;
-    --background : #142231;
+a {
+    text-decoration: none;
+    color: white;
+   
+    
+}  
 
+body{
+  background-color: #142231;
 }
