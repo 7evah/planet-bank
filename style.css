@@ -5,21 +5,40 @@
   
   header {
     background-color: var(--blue-linear-color);
+    height: fit-content;
   }
   
-  .navbar {
-    background-color: var(--blue-linear-color);
-    justify-content: center;
-    
-  }
-
-a {
-    text-decoration: none;
-    color: white;
-   
-    
-}  
+  
 
 body{
-  background-color: #142231;
+  background-color: var(--background) ;
 }
+
+
+li{
+  display:inline;
+  padding-right: 20px;
+  }
+  ul{
+
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    
+    flex-wrap: wrap;
+    float:left;
+    }
+
+.btn{
+  justify-content: flex-end;
+}
+  
+  a{
+    color:white;
+    text-decoration: none;
+  }
+
+ .logo{
+  width: 30px;
+  float : left;
+ }
