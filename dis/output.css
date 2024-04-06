@@ -6701,10 +6701,11 @@ video {
 @media (max-width: 768px) {
   nav ul li {
     display: none; 
+    
 }
 
 
-
+#discover{height:10vh ; width:60vh;}
 
 
 
@@ -6747,6 +6748,42 @@ video {
     width: 80%; 
     margin-bottom: 44px; 
   }
+  #joinUs {
+    flex-wrap:wrap;
+    
+  }
+  #fName{
+
+
+    margin-left: 0;
+  }
+  #number{
+
+    margin-left: 0;
+  }
+  #email{
+    margin-left: 0;
+
+  }
+  #sValues{
+    flex-wrap:wrap-reverse;
+        
+      }
+      #tValues{
+    margin-bottom: 0;
+    
+      }
+    
+      #iValues{
+    
+        margin-left:10;
+      }
+    
+    #values{
+    flex-direction: column;
+    
+    
+    }
 }
 
 @media (max-width: 768px) {
@@ -6775,6 +6812,63 @@ video {
   }
 }
 
+#joinUs {
+  display: flex;
+}
+
+#sValues{
+
+  display:flex;
+}
+@media (max-width: 500px) {
+
+  #discover{display:none;
+ }
+ 
+ 
+
+
+  #joinUs {
+    flex-wrap:wrap;
+    
+  }
+  #fName{
+
+
+    margin-left: 0;
+  }
+  #number{
+
+    margin-left: 0;
+  }
+  #email{
+    margin-left: 0;
+
+  }
+
+  #sValues{
+flex-wrap:wrap-reverse;
+    
+  }
+  #tValues{
+margin-bottom: 0;
+
+  }
+
+  #iValues{
+
+    margin-left:10;
+  }
+
+#values{
+flex-direction: column;
+
+
+}
+
+
+
+}
 
 
 

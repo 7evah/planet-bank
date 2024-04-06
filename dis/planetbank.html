@@ -34,7 +34,7 @@
       
       <section style="background: linear-gradient(#2E4E5A, #62A6C0);" class="hero relative mx-10 my-20 rounded-2xl bg-gradient-to-r shadow-2xl">
         <img src="image 3.png" alt="Hero Image" class="w-1250 h-581 rounded ml-36 mx-auto"> 
-        <div style="background: linear-gradient(#1e343b, #79b1c7);" class="text-white relative bottom-52 left-24 w-72 rounded-xl p-3 italic text-3xl shadow-2xl pl-7"><a href="#">Discover our offers</a></div> <!-- Original button size and position -->
+        <div id="discover" style="background: linear-gradient(#1e343b, #79b1c7);" class="text-white relative bottom-52 left-24 w-72 rounded-xl p-3 italic text-3xl shadow-2xl pl-7"><a href="#">Discover our offers</a></div> 
       </section>
     
       <section class="text-white text-center">
@@ -69,11 +69,11 @@
         
 
       <section>
-        <h1 class="text-4xl italic text-center decoration-solid text-white mb-24"> The values ​​that drive our mission </h1>
+        <h1 id="tValues"class="text-4xl italic text-center decoration-solid text-white mb-24"> The values ​​that drive our mission </h1>
         
-        <div class="flex flex-row ">
-        <div class="absolute left-9 my-16"><img src="Line 8.svg" alt="" ></div>
-        <div class="text-white basis-1/3 px-16 mt-0"><ul>
+        <div id="sValues"class="flex flex-row ">
+        <div id="iValues"class="absolute left-9 my-16"><img src="Line 8.svg" alt="" ></div>
+        <div id="values" class="text-white basis-1/3 px-16 mt-0"><ul>
             
             <li class="my-6 font-bold p-7">01. Digital support for the diaspora</li>
             <li>planet bank is committed to guiding the Haitian diaspora in their transition to banking digitalization, simplifying transactions and bringing loved ones closer together.</li>
@@ -260,15 +260,15 @@
       Join early for a chance to win your first year free! Become one of our first members and enjoy a year of banking
       without fees. Don't miss out – sign up with Planet Bank today!
     </div>
-        <div class="mx-16 flex justify-start mt-5 ">
+        <div id="joinUs" class="mx-16 flex justify-start mt-5 ">
 
           
         
-        <div class=" ml-24 w-full flex flex-col text-white italic"><label for="">Full Name </label><input class="rounded-lg" placeholder="" ></div>
-        <div class="ml-10 w-full flex flex-col  text-white italic "><label for="">Number</label><input class="rounded-lg"></div>
+        <div id="fName"class=" ml-24 w-full flex flex-col text-white italic"><label for="">Full Name </label><input class="rounded-lg" placeholder="" ></div>
+        <div id="number"class="ml-10 w-full flex flex-col  text-white italic "><label for="">Number</label><input class="rounded-lg"></div>
       </div>
 
-      <div class="w-14 my-10 ml-24 flex flex-col  text-white italic"><label for="">Email</label><input class="w-50 rounded-lg"></div>
+      <div id="email" class="w-14 my-10 ml-24 flex flex-col  text-white italic"><label for="">Email</label><input class="w-50 rounded-lg"></div>
       <div class="flex justify-center mt-10">
         <div class="w-1/3 mx-auto" style="background: linear-gradient(#1e343b, #79b1c7); border-radius: 40px;">
             <button class="px-16 py-6 bg-gradient-to-r from-blue-800 to-blue-500 text-white rounded-full">Sign up</button>
@@ -277,6 +277,7 @@
     </div>
         
     </form>
+    
     
 
   </section>
